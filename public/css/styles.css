@@ -29,6 +29,11 @@ button {
     outline: none;
 }
 
+.valentine-gif{
+    width: 250px;
+    margin-bottom: 1rem;
+}
+
 .container {
     text-align: center;
     padding: 2rem;
@@ -78,7 +83,9 @@ button {
     transform: scale(0.95);
 }
 
-.message {
+#message {
+    margin-top: 3rem;
+    font-weight: bolder;
     font-size: 1rem;
     color: #555;
     min-height: 1.5em;
