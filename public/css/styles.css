@@ -1,0 +1,91 @@
+/* styles.css */
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #ffe6ee, #fff5f8);
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+/* Layout */
+.container {
+  text-align: center;
+  padding: 2rem;
+  max-width: 500px;
+  width: 100%;
+}
+
+.title {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+  color: #d6336c;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Buttons */
+.btn {
+  padding: 0.9rem 2.2rem;
+  font-size: 1.1rem;
+  border-radius: 999px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* YES */
+.btn.yes {
+  background-color: #51cf66;
+  color: #fff;
+}
+
+.btn.yes:hover {
+  transform: scale(1.05);
+}
+
+/* NO */
+.btn.no {
+  background-color: #ff6b6b;
+  color: #fff;
+  
+}
+
+.btn.no:hover {
+  transform: scale(0.95);
+}
+
+/* Message */
+.message {
+  font-size: 1rem;
+  color: #555;
+  min-height: 1.5em;
+  transition: opacity 0.3s ease;
+}
+
