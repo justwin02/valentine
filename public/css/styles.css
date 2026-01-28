@@ -46,7 +46,7 @@ button {
 
 .buttons {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     gap: 1.5rem;
     margin-bottom: 1.5rem;
 }
@@ -71,7 +71,7 @@ button {
 .btn.no {
     background-color: #ff6b6b;
     color: #fff;
-    position: absolute;
+    position: relative;
 }
 
 .btn.no:hover {
