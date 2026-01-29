@@ -1,5 +1,6 @@
 const noBtn = document.getElementById("noBtn");
 const container = document.querySelector(".container");
+const yesBtn = 
 
 noBtn.addEventListener("mouseover", () => {
     const containerRect = container.getBoundingClientRect();
@@ -15,3 +16,4 @@ noBtn.addEventListener("mouseover", () => {
     noBtn.style.left = `${randomX}px`;
     noBtn.style.top = `${randomY}px`;
 });
+
